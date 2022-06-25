@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/loc.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav {
+    padding: 30px 3%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(3, 236, 163);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+.logo {
+    width: 70px;
+    cursor: pointer;
+    margin: 0 20;
+}
+
+.container {
+    padding: 20px;
+    width: 80%;
+}
+
+.details {
+    background: #fff;
+    padding: 0.8rem;
+    margin-top: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn {
+    background: #fff;
+    border-radius: 2px;
+    padding: .375rem .75rem;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    cursor: pointer;
+    border-color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.item {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.item:last-child {
+    border: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+img {
+    width: 190px;
+    height: 160px;
+}
+
+.dark {
+    background: #000;
+    color: #fff;
+}
+
+.btn-dark {
+    background: rgb(17, 32, 1);
+    color: #fff;
+    border: 1px solid #ccc;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

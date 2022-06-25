@@ -87,7 +87,7 @@ let geocode = {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(success, console.error);
         } else {
-            weather.fetchWeather("Manipal");
+            weather.fetchWeather("colombo");
         }
     }
 };
@@ -104,7 +104,7 @@ document
         }
     });
 
-weather.fetchWeather("Manipal");
+weather.fetchWeather("colombo");
 
 document
     .querySelector(".search-bar")

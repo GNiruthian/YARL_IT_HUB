@@ -3,7 +3,7 @@ let products = {
             foodName: "Potato",
             category: "vegetables",
             calories: "77",
-            img.src = 'f-18.jpg'  
+            img.src = 'f-18.jpg',
         },
         {
             foodName: "Apple",

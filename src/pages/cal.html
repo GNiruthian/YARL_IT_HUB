@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self_Defense | Calories</title>
     <link rel="shortcut icon" type="images" href="../images/logo/logo.jpg">
-
     <!--Css file-->
     <link rel="stylesheet" href="../css/cal.css">
 
@@ -27,34 +26,28 @@
                 <li><a href="./tour.html">Tourist</a></li>
             </ul>
         </nav>
-        <div class="wrapper">
-            <div id="search-container">
-                <input type="search" id="search-input" placeholder="Search product name here.." />
-                <button id="search">Search</button>
-            </div>
-            <div id="buttons">
-                <button class="button-value" onclick="filterProduct('all')">All</button>
-                <button class="button-value" onclick="filterProduct('vegetables')">
-                vegetables
-              </button>
-                <button class="button-value" onclick="filterProduct('fruit')">
-                fruit
-              </button>
-                <button class="button-value" onclick="filterProduct('drink')">
-                drink
-              </button>
-                <button class="button-value" onclick="filterProduct('food')">
-                food
-              </button>
-            </div>
-            <div id="products"></div>
-        </div>
+
+        <center>
+            <h2>Calories Finder</h2>
+        </center>
+
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+        <ul id="myUL">
+            <li><a href="#">1 Dosa - 133 calories</a></li>
+            <li><a href="#">1 idli - 58 calories</a></li>
+
+            <li><a href="#">1 vegetable uttapam - 250 calories</a></li>
+            <li><a href="#">1 masala dosa - 415 calories</a></li>
+
+            <li><a href="#">1 medu vada - 103 calories</a></li>
+            <li><a href="#">Gulab Jamun	2 pieces - 350 calories</a></li>
+        </ul>
+
+
     </div>
-
-
-
-    <!--Js file-->
     <script src="../js/cal.js"></script>
+
 </body>
 
 </html>

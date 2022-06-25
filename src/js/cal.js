@@ -3,7 +3,7 @@ let products = {
             foodName: "Potato",
             category: "vegetables",
             calories: "77",
-            image: "f-18.jpg",
+            img.src = "https://user-images.githubusercontent.com/88297426/175755947-21d3632f-e3fb-4497-8257-16563aca7630.jpg";
         },
         {
             foodName: "Apple",

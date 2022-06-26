@@ -1,13 +1,13 @@
 const list = [
-  "HTML 5",
-  "CSS3",
-  "Angular 2",
-  "React",
-  "Node.js",
-  "Vue.js",
-  "PHP",
-  "JavaScript",
-  "Bootstrap",
+  "1 idli - 58 calories",
+  "1 Dosa - 133 calories",
+  "1 Masala dosa - 387 calories",
+  "1 Brown Rice Dosa - 81 calories",
+  "chicken curry - 110 calories",
+  "",
+  "",
+  "",
+  "",
 ];
 
 const output = document.querySelector(".output");

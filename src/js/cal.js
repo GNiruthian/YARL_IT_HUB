@@ -7,7 +7,13 @@ const list = [
   "Curd Rice 300 grams -	433 calories",
   "1 Chapathi	-	40 calories",
   "Fish Fry	100 grams	- 240 calories",
-  "Gulab Jamun	2 pieces -	350 calories",
+  "	2 pieces Gulab Jamun -	350 calories",
+  "1 Veda Malt Loaf - 109 calories",
+  "1 Onion Tomato Uttapam - 92 calories",
+  "1 Appam - 99 calories",
+  "1 serving of Puttu - 305 calories"
+  "1 serving of Ven Pongal - 212 calories",
+  "Malabar Parotta - 165 calories",
 ];
 
 const output = document.querySelector(".output");

@@ -11,7 +11,7 @@ const list = [
   "1 Veda Malt Loaf - 109 calories",
   "1 Onion Tomato Uttapam - 92 calories",
   "1 Appam - 99 calories",
-  "1 serving of Puttu - 305 calories"
+  "1 serving of Puttu - 305 calories",
   "1 serving of Ven Pongal - 212 calories",
   "Malabar Parotta - 165 calories",
 ];

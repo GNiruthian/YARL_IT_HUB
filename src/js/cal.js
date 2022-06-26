@@ -4,10 +4,10 @@ const list = [
   "1 Masala dosa - 387 calories",
   "1 Brown Rice Dosa - 81 calories",
   "chicken curry - 110 calories",
-  "",
-  "",
-  "",
-  "",
+  "Curd Rice 300 grams -	433 calories",
+  "1 Chapathi	-	40 calories",
+  "Fish Fry	100 grams	- 240 calories",
+  "Gulab Jamun	2 pieces -	350 calories",
 ];
 
 const output = document.querySelector(".output");

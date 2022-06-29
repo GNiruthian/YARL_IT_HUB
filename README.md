@@ -4,4 +4,4 @@
 # YARL_IT_HUB
 Project for YARL_IT_HUB
 
-Web : https://yarl-it-hub.netlify.app/
+Web App : https://yarl-it-hub.netlify.app/
